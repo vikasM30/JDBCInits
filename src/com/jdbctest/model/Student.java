@@ -10,16 +10,16 @@ public class Student {
     }
 
     public Student(String name, String email, int age) {
+        this.name = name;
         this.email = email;
         this.age = age;
-        this.name = name;
     }
 
-    public Student(int id, String name, int age, String email) {
+    public Student(int id, String name, String email, int age) {
         this.id = id;
         this.name = name;
-        this.age = age;
         this.email = email;
+        this.age = age;
     }
 
     public int getAge() {
